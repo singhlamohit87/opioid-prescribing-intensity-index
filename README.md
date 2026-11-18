@@ -32,7 +32,7 @@ For county \(c\) in year \(t\):
 =\frac{\mathrm{OpioidClaims}_{c,t}^{2}}{\mathrm{Population}_{c,t}\,\mathrm{OpioidPrescribers}_{c,t}}.
 \]
 
-The first factor captures opioid claims relative to county population; the second captures claims relative to the number of opioid prescribers. OPII is a **prescribing-intensity construct**, not a direct measure of opioid use disorder, overdose mortality, individual exposure, or causal harm. Medicare Part D claims do not represent all prescriptions dispensed in a county, and the population denominator includes residents outside Part D.
+The first factor captures opioid claims relative to county population; the second captures claims relative to the number of total prescribers. OPII is a **prescribing-intensity construct**, not a direct measure of opioid use disorder, overdose mortality, individual exposure, or causal harm. Medicare Part D claims do not represent all prescriptions dispensed in a county, and the population denominator includes residents outside Part D.
 
 ## Study design and data
 
