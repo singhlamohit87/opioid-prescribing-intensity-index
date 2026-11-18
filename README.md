@@ -23,14 +23,8 @@ The analysis evaluates this question using Medicare Part D geographic prescribin
 
 ## Opioid Prescribing Intensity Index (OPII)
 
-For county \(c\) in year \(t\):
-
-\[
-\mathrm{OPII}_{c,t}
-=\left(\frac{\mathrm{OpioidClaims}_{c,t}}{\mathrm{Population}_{c,t}}\right)
-\times\left(\frac{\mathrm{OpioidClaims}_{c,t}}{\mathrm{OpioidPrescribers}_{c,t}}\right)
-=\frac{\mathrm{OpioidClaims}_{c,t}^{2}}{\mathrm{Population}_{c,t}\,\mathrm{OpioidPrescribers}_{c,t}}.
-\]
+OPII = (opioid claims per 1,000 residents) × (opioid claims per prescriber)
+= (1000 × tot_opioid_clms/population) × (tot_opioid_clms/tot_prscrbrs)
 
 The first factor captures opioid claims relative to county population; the second captures claims relative to the number of total prescribers. OPII is a **prescribing-intensity construct**, not a direct measure of opioid use disorder, overdose mortality, individual exposure, or causal harm. Medicare Part D claims do not represent all prescriptions dispensed in a county, and the population denominator includes residents outside Part D.
 
@@ -56,7 +50,7 @@ The first factor captures opioid claims relative to county population; the secon
 ## Main findings
 
 - **Rural–metropolitan disparity:** Mean OPII in 2023 was approximately **100,674 in rural counties versus 50,220 in metropolitan counties**.
-- **Ranking discordance:** **165 counties** were in the highest OPII decile but not in the highest claims-per-prescriber decile. These counties collectively contained approximately **13.2 million residents**; this is their geographic population, not a count of opioid recipients or people with opioid use disorder.
+- **Ranking discordance:** **165 counties** were in the highest OPII quartile but not in the highest claims-per-prescriber quartile. These counties collectively contained approximately **13.2 million residents**; this is their geographic population, not a count of opioid recipients or people with opioid use disorder.
 - **Rural concentration:** **53.8%** of the 165 discordant counties were rural, compared with **23.4%** of counties in the full study sample.
 - **Temporal model performance:** Random Forest holdout **R² = 0.913** for 2021–2023. This is variance explained, not 91.3% classification accuracy.
 - **Geographic robustness:** Mean leave-one-state-out **R² = 0.891**.
