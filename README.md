@@ -52,7 +52,7 @@ The first factor captures opioid claims relative to county population; the secon
 - **Rural–metropolitan disparity:** Mean OPII in 2023 was approximately **100,674 in rural counties versus 50,220 in metropolitan counties**.
 - **Ranking discordance:** **165 counties** were in the highest OPII quartile but not in the highest claims-per-prescriber quartile. These counties collectively contained approximately **13.2 million residents**; this is their geographic population, not a count of opioid recipients or people with opioid use disorder.
 - **Rural concentration:** **53.8%** of the 165 discordant counties were rural, compared with **23.4%** of counties in the full study sample.
-- **Temporal model performance:** Random Forest holdout **R² = 0.913** for 2021–2023. This is variance explained, not 91.3% classification accuracy.
+- **Temporal model performance:** Random Forest holdout **R² = 0.0.9129** for 2021–2023. This is variance explained, not 91.3% classification accuracy.
 - **Geographic robustness:** Mean leave-one-state-out **R² = 0.891**.
 - **Model interpretation:** Mean absolute SHAP attribution for opioid prescribing rate was reported as **0.72 for rural** and **0.54 for metropolitan** counties. SHAP explains model predictions and should not be interpreted as identifying causal drivers.
 - **Illustrative scenario:** A 20% perturbation of the prescribing-rate feature was associated with a **34% reduction in predicted OPII nationally** and **40% in rural counties**. These are model-based sensitivity results, **not estimated effects of implemented policies**.
