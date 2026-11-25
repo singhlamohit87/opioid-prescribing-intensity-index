@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-25",
+  "clones": {
+    "count": 202,
+    "uniques": 93,
+    "clones": [
+      {
+        "timestamp": "2026-11-11T00:00:00Z",
+        "count": 7,
+        "uniques": 6
+      },
+      {
+        "timestamp": "2026-11-12T00:00:00Z",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "timestamp": "2026-11-13T00:00:00Z",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "timestamp": "2026-11-14T00:00:00Z",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "timestamp": "2026-11-15T00:00:00Z",
+        "count": 4,
+        "uniques": 2
+      },
+      {
+        "timestamp": "2026-11-16T00:00:00Z",
+        "count": 28,
+        "uniques": 17
+      },
+      {
+        "timestamp": "2026-11-17T00:00:00Z",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "timestamp": "2026-11-18T00:00:00Z",
+        "count": 41,
+        "uniques": 19
+      },
+      {
+        "timestamp": "2026-11-19T00:00:00Z",
+        "count": 35,
+        "uniques": 19
+      },
+      {
+        "timestamp": "2026-11-20T00:00:00Z",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "timestamp": "2026-11-21T00:00:00Z",
+        "count": 21,
+        "uniques": 13
+      },
+      {
+        "timestamp": "2026-11-22T00:00:00Z",
+        "count": 15,
+        "uniques": 7
+      },
+      {
+        "timestamp": "2026-11-23T00:00:00Z",
+        "count": 21,
+        "uniques": 14
+      },
+      {
+        "timestamp": "2026-11-24T00:00:00Z",
+        "count": 11,
+        "uniques": 8
+      }
+    ]
+  },
+  "views": {
+    "count": 39,
+    "uniques": 2,
+    "views": [
+      {
+        "timestamp": "2026-11-11T00:00:00Z",
+        "count": 6,
+        "uniques": 1
+      },
+      {
+        "timestamp": "2026-11-12T00:00:00Z",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "timestamp": "2026-11-13T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-11-14T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-11-15T00:00:00Z",
+        "count": 4,
+        "uniques": 2
+      },
+      {
+        "timestamp": "2026-11-16T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-11-17T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-11-18T00:00:00Z",
+        "count": 18,
+        "uniques": 1
+      },
+      {
+        "timestamp": "2026-11-19T00:00:00Z",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "timestamp": "2026-11-20T00:00:00Z",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "timestamp": "2026-11-21T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-11-22T00:00:00Z",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "timestamp": "2026-11-23T00:00:00Z",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "timestamp": "2026-11-24T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      }
+    ]
+  },
+  "referrers": [
+    {
+      "referrer": "github.com",
+      "count": 4,
+      "uniques": 1
+    }
+  ],
+  "popular_content": [
+    {
+      "path": "/singhlamohit87/opioid-prescribing-intensity-index",
+      "title": "Overview",
+      "count": 10,
+      "uniques": 2
+    },
+    {
+      "path": "/singhlamohit87/opioid-prescribing-intensity-index/pulse",
+      "title": "/pulse",
+      "count": 8,
+      "uniques": 2
+    },
+    {
+      "path": "/singhlamohit87/opioid-prescribing-intensity-index/graphs/traffic",
+      "title": "/graphs/traffic",
+      "count": 7,
+      "uniques": 1
+    },
+    {
+      "path": "/singhlamohit87/opioid-prescribing-intensity-index/blob/main/README.md",
+      "title": "/blob/main/README.md",
+      "count": 4,
+      "uniques": 1
+    },
+    {
+      "path": "/singhlamohit87/opioid-prescribing-intensity-index/edit/main/README.md",
+      "title": "/edit/main/README.md",
+      "count": 4,
+      "uniques": 1
+    },
+    {
+      "path": "/singhlamohit87/opioid-prescribing-intensity-index/blob/main/results/test_evaluation_set.csv",
+      "title": "/blob/main/results/test_evaluation_set.csv",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "path": "/singhlamohit87/opioid-prescribing-intensity-index/tree/main/notebooks",
+      "title": "/tree/main/notebooks",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "path": "/singhlamohit87/opioid-prescribing-intensity-index/tree/main/results",
+      "title": "/tree/main/results",
+      "count": 2,
+      "uniques": 1
+    }
+  ],
+  "stars": 1,
+  "forks": 0,
+  "watchers": 1
+}
